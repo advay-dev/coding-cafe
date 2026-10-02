@@ -22,4 +22,14 @@
 
 8. First seven characters: This is the short hash (mine: 5fad48f). It's a compact, unique-enough identifier for referring to a commit in commands like git show or git checkout.
 
-9. 
+9. The Git loop: Edit your files, check with git status, stage with git add, and save with git commit.
+
+10. README.md purpose and placement: It's the project's front-door documentation, explaining what the project is and how to install and use it. It belongs in the root folder of the repository.
+
+11. gh auth login: It authenticates you through the browser once, stores a token securely on your machine, and sets Git up to use it as a credential helper. Later pushes and pulls use that stored token instead of prompting you.
+
+12. File on GitHub's front page: GitHub renders the root README.md below the file list. It does this because the README is the conventional project introduction, and Markdown displays as formatted text.
+
+13. git push and local history: It doesn't change your local commits at all. It copies them to the remote and updates your remote-tracking reference (such as origin/main) to match.
+
+14. Private repo vs. no repo: A private repository exists on GitHub as a backup and remote, but only you and invited collaborators can see it. With no repository, the code and its history live only on your computer.
