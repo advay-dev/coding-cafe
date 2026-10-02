@@ -4,7 +4,7 @@
 
 3. Untracked files: 6. Untracked code is any file listed there: Git sees it but isn't recording its changes yet.
 
-4. git status after .gitignore: Files and folders matching the ignore patterns disappear from the untracked list, so the output gets much shorter. .gitignore itself shows up as a new untracked file.
+4. git status after .gitignore: Files and folders matching the ignore patterns (.DS_Store) disappear from the untracked list, so the output gets much shorter. .gitignore itself shows up as a new untracked file.
 
 5. Committing .gitignore: Committing it shares the same ignore rules with everyone who clones the repo, which keeps junk and secrets out consistently. If it were ignored, the rules would exist only on your machine.
 
@@ -33,3 +33,5 @@
 13. git push and local history: It doesn't change your local commits at all. It copies them to the remote and updates your remote-tracking reference (such as origin/main) to match.
 
 14. Private repo vs. no repo: A private repository exists on GitHub as a backup and remote, but only you and invited collaborators can see it. With no repository, the code and its history live only on your computer.
+
+fin
