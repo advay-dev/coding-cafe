@@ -1,0 +1,53 @@
+  317  pwd
+  318  ls
+  319  ls -a
+  320  ls -l
+  321  cd ~
+  322  mkdir coding-cafe
+  323  cd ~
+  324  mkdir coding-cafe
+  325  cd coding-cafe
+  326  mkdir week01 week02
+  327  touch README.md
+  328  touch week02/notes.md
+  329  ls
+  330  cd ~
+  331  ls coding-cafe/week02
+  332  ls coding-cafe/week02
+  333  cd ~/ coding-cafe
+  334  cd ~/coding-cafe
+  335  cp README.md README-backup.md
+  336  mv README-backup.md week01/
+  337  cd week01
+  338  mv README-backup.md old-readme.md
+  339  ls
+  340  rm old-readme.md
+  341  ls
+  342  cd
+  343  echo $PATH
+  344  which python3
+  345  which pip
+  346  which ls
+  347  pyton3
+  348  pip
+  349  which pip
+  350  cd ~/coding-cafe
+  351  python3 -m venv .venv
+  352  ls
+  353  ls -a
+  354  source .venv/bin/activate
+  355  which python3
+  356  pip list
+  357  pip install requests
+  358  pip list
+  359  deactivate
+  360  which python3
+  361  man ls
+  362  ls -h
+  363  man man
+  364  cd cod
+  365  history
+  366  python3
+  367  history > week02/lab01-log.txt
+  368  history1 > week02/lab01-log.txt
+  369  history 1 > week02/lab01-log.txt
